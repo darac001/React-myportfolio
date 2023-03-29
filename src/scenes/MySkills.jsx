@@ -2,7 +2,7 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import { AiFillHtml5 } from "react-icons/ai";
-import { SiCss3, SiReact, SiJavascript, SiTailwindcss } from "react-icons/si";
+import { SiCss3, SiReact, SiJavascript, SiTailwindcss, SiMongodb,SiExpress} from "react-icons/si";
 import python from "../assets/python.svg";
 import Tools from "../components/Tools";
 
@@ -151,6 +151,62 @@ const MySkills = () => {
                 Tailwinds
               </p>
             </motion.div>
+
+            <motion.div
+              className=" mt-10 text-center flex flex-col justify-center items-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: -50 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            >
+              <div className="h-32 card flex justify-center items-center">
+                <div className="z-10">
+                  <SiMongodb className="text-[80px] fill-[#00ed64] mx-1.5" />
+                </div>
+              </div>
+              <p className="mt-5 text-center text-[20px] font-josefin text-grey">
+                MongoDB
+              </p>
+            </motion.div>
+
+            <motion.div
+              className=" mt-10 text-center flex flex-col justify-center items-center"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, y: -50 },
+                visible: { opacity: 1, y: 0 },
+              }}
+            >
+              <div className="h-32 card flex justify-center items-center">
+                <div className="z-10">
+                  <SiExpress className="text-[80px] fill-[white] mx-1.5" />
+                </div>
+              </div>
+              <p className="mt-5 text-center text-[20px] font-josefin text-grey">
+                Express Node JS
+              </p>
+            </motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             {/* python */}
             <motion.div

@@ -46,10 +46,10 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="md:text-8xl font-futurabold z-10 text-center md:text-start">
-            Front End {""}
+            Web {""}
             <span
               className="xs:relative xs:white xs:font-futurabold z-20 xs:before:content-splash
-              before:absolute before:-left-[25px] before:-top-[40px] before:z-[-1] "
+              before:absolute before:-left-[-70px] before:-top-[40px] before:z-[-1] "
             >
               Developer
             </span>
@@ -60,7 +60,7 @@ const Landing = ({ setSelectedPage }) => {
             DARKO SKOCIC
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">Hello there! As a junior front end developer, I'm passionate about designing and developing engaging and 
+          <p className="mt-10 mb-7 text-sm text-center md:text-start">Hello there! As a web developer, I'm passionate about designing and developing engaging and 
             intuitive web applications that provide a seamless user experience.
             I've always been fascinated by the world of web development and design, and I'm 
             constantly seeking out new challenges and opportunities to expand my skillset. I have a 

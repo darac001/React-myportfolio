@@ -79,18 +79,16 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
+          {/* <div
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-josefin font-semibold "
           >
             REACTJS WEB APPLICATIONS
-          </div>
+          </div> */}
+          <Project title="MERN Stack AI Image Generator" site="https://i-maginator.netlify.app/" />
           <Project title="Mobile Shop E-Commerce Website" site="https://astounding-yeot-83c1a1.netlify.app/" />
           <Project title="Saigon Tours Company Website" site="https://saigon-tours.netlify.app" />
-
-          {/* ROW 2 */}
-          <Project title="HEX Shades-Tints Color Generator" site="https://color-gen-d.netlify.app/" />
-          <Project title="Weather App" site="http://darac001.pythonanywhere.com/"  />
+          {/* <Project title="Weather App" site="http://darac001.pythonanywhere.com/"  />
           
 
           <div
@@ -98,7 +96,7 @@ const Projects = () => {
               max-w-[400px] max-h-[400px] text-2xl font-josefin font-semibold"
           >
             FLASK WEB APPLICATIONS
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section >
