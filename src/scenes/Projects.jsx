@@ -85,7 +85,7 @@ const Projects = () => {
           >
             REACTJS WEB APPLICATIONS
           </div> */}
-          <Project title="MERN Stack AI Image Generator" site="https://i-maginator.netlify.app/" />
+          <Project title="MERN Stack AI Image Generator and Editor" site="https://i-maginator.netlify.app/" />
           <Project title="Mobile Shop E-Commerce Website" site="https://astounding-yeot-83c1a1.netlify.app/" />
           <Project title="Saigon Tours Company Website" site="https://saigon-tours.netlify.app" />
           {/* <Project title="Weather App" site="http://darac001.pythonanywhere.com/"  />
