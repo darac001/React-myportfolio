@@ -1,8 +1,8 @@
 import LineGradient from "../components/LineGradient";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import { TfiEmail } from 'react-icons/tfi'
-import { SlPhone } from "react-icons/sl";
+// import { TfiEmail } from 'react-icons/tfi'
+// import { SlPhone } from "react-icons/sl";
 
 const Contact = () => {
   const {
