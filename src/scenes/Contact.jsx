@@ -137,7 +137,7 @@ const Contact = () => {
               >
                 Submit now
               </button>
-              <div className="flex justify-left items-left md:flex-row md:mr-60 flex-col ">
+              {/* <div className="flex justify-left items-left md:flex-row md:mr-60 flex-col ">
                 <a href="mailto:darko.skocic1@gmail.com" className="flex items-center m-1 md:mr-3 hover:opacity-40">
                   <div className="flex items-center mr-2 relative z-0 before:absolute before:-top-50 before:-left-[0px] before:h-full 
                                   before:w-full before:max-w-[40px] before:border-[1px] before:border-red before:rounded-[50%] text-red before:bg-red before:bg-opacity-20">
@@ -154,7 +154,7 @@ const Contact = () => {
                   <p className="font-futura text-dark-grey">+1 587-966-1920</p>
                 </div>
 
-              </div>
+              </div> */}
 
             </div>
           </form>
